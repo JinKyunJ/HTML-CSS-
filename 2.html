@@ -1,27 +1,31 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-    <title>WEB1 - CSS</title>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <title>from</title>
 </head>
 <body>
-    <H1><a href="index.html">WEB</a></H1>
-    <ol>
-        <li><a href="1.html">HTML></a></li>
-        <li><a href="2.html">CSS</a></li>
-        <li><a href="3.html">JavaScript</a></li>
-    </ol>
-    <H2>CSS이란 무엇인가?</H2>
-    <p>HTML 등의 마크업 언어로 작성된 문서가 실제로 웹사이트에 표현되는 방법을 정해주는 스타일 시트 언어.
-
-        CSS의 C가 Cascading[1]의 약자인데, 이는 상위 요소의 스타일 속성을 자손 요소들에게 상속시켜주는 모습이 DOM 트리구조에서 마치 폭포수처럼 내려가는 모습을 닮았기 때문이다. 다만 예외로 마진, 패딩, 보더 등의 박스모델 관련 속성은 상속되지 않는다. 물론 inherit 값을 줘서 강제로 상속시킬 순 있다.</p>
+    <form action="/test.html">
+        <h1>Form 관련 요소</h1>
+        아이디: <input type="text" placeholder="영문으로만 써주세요"><br>
+        비밀번호: <input type="password"><br>
+        성별: 남자<input type="radio" name="gender">, 여자<input type="radio" name="gender"><br>
+        <input type="checkbox"><br>
+        프로필 사진 업로드: <input type="file"><br>
+        <input type="submit"><br>
+        <input type="reset"><br>
+        <input type="button"><br>
+        <input type="button" value="전송or취소or등록 등"><br>
+        <button type="sumit">전송</button><br>
+        <button type="reset">취소</button><br>
+        <input type="image" src="login.jpg" alt="로그인" width="100" height="100"><br>
+        사는지역: <select>
+            <option>서울</option>
+            <option>경기</option>
+            <option>강원</option>
+            <option>제주</option>
+        </select><br>
+        자기소개: <textarea cols="30" rows="5" placeholder="입력해주세요."></textarea><br>
+    </form>
 </body>
 </html>
-<br>
-
-<h1>Heading level 1</h1>
-<h2>Heading level 2</h2>
-<h3>Heading level 3</h3>
-<h4>Heading level 4</h4>
-<h5>Heading level 5</h5>
-<h6>Heading level 6</h6>
